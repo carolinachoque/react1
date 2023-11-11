@@ -35,9 +35,7 @@ function App() {
   return (
     <div>
       <C01componente />
-      <C02contador />
-      <Variables xVariable="Hola mundo" />
-      <C06matriz />
+      
     </div>
   );
 }
