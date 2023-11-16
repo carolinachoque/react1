@@ -4,7 +4,7 @@ const AppForm = (props) => {
 
   //style={{background:"orange", padding:"10px"}} 
   return (
-    <div> style={{background:"orange", padding:"10px"}}
+    <div style={{background:"orange", padding:"10px"}}>
       <form >
         <button>Cerrar aplicacion</button>
 

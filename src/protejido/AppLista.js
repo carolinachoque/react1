@@ -1,14 +1,13 @@
 import React from 'react'
-
+import AppForm from './AppForm';
 
 const AppLista = (props) => {
 
     //style={{background:"greenyellow", padding:"10px"}}
-    //{/* Pasa variable y funcion */} {...{idActual, setIdActual}}
   return (
-    <div>style={{background:"greenyellow", padding:"10px"}}>
+    <div style={{background:"greenyellow", padding:"10px"}}>
     <h1>Applist.js</h1>
-
+    <AppForm />
     <h3>Lista de clientes</h3>
     <p>No. 1. Rosa Choque Quispe      .....x.....A</p>
     <p>No. 2. Rosa Maria Luque Conde  .....x.....A</p>
